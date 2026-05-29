@@ -10,7 +10,7 @@ public class Circle : MonoBehaviour, IShape
     public float GetArea()
     {
         float area = Mathf.PI * radius * radius;
-        Debug.Log(area);
+        //Debug.Log(area);
         return area;
     }
 }
