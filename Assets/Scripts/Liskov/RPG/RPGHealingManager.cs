@@ -15,6 +15,7 @@ public class RPGHealingManager : MonoBehaviour
         foreach (var item in healers)
         {
             (item as IHealable)?.Heal();
+            
         }
     }
 }
